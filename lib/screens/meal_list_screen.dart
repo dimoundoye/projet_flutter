@@ -62,6 +62,30 @@ class _MealListScreenState extends State<MealListScreen> {
         date: now.subtract(const Duration(days: 5)),
         type: TypeRepas.dejeuner,
       ),
+      Repas(
+        id: '6',
+        plat: 'Thiebou guinar',
+        portionsPreparees: 90,
+        portionsServies: 80,
+        date: now.subtract(const Duration(days: 6)),
+        type: TypeRepas.diner,
+      ),
+      Repas(
+        id: '7',
+        plat: 'Bassi Saloum',
+        portionsPreparees: 70,
+        portionsServies: 60,
+        date: now.subtract(const Duration(days: 7)),
+        type: TypeRepas.dejeuner,
+      ),
+      Repas(
+        id: '8',
+        plat: 'Ndambe',
+        portionsPreparees: 60,
+        portionsServies: 50,
+        date: now.subtract(const Duration(days: 8)),
+        type: TypeRepas.diner,
+      ),
     ]);
   }
 
